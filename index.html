@@ -3,6 +3,7 @@
 <head>
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     <div class="hero">
@@ -14,14 +15,22 @@
                 <li><a href="">PORTFOLIO</a></li>
                 <li><a href="">SERVICES</a></li>
                 <li><a href="">HIRE ME</a></li>
+                <li><i class="fa-solid fa-moon"></i></li>
             </ul>
         </nav>
 
         <div class="info"></div>
             <h1>I'm <span>Saemi </span>Park</h1>
-            <p>This is portfolio website to showcase dark mode theme</p>
-            <a href="">Download CV</a>
-            <p>Busy Midterm Prep</p>
+
     </div>
+    
+    <script src="https://kit.fontawesome.com/977a29eff2.js" crossorigin="anonymous"></script>
+    <script>
+        var moonIcon = document.querySelector(".fa-moon");
+        moonIcon.onclick = function(){
+            document.body.classList.toggle("dark-theme");
+        }
+    </script>
+    
 </body>
 </html>
