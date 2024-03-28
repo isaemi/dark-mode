@@ -111,3 +111,7 @@ span{
 .social-links a:hover{
     color: #ff4321;
 }
+.icon {
+    width: 20px;
+    cursor: pointer;
+}
