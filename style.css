@@ -111,7 +111,7 @@ span{
 .social-links a:hover{
     color: #ff4321;
 }
-.icon {
+.moon, .sun {
     width: 20px;
     cursor: pointer;
 }
